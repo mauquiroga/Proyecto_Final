@@ -13,21 +13,8 @@ while True:
             contraseñausuario=input("Ingrese una Contraseña: ")
             contraseñausuario.lower()
             if nombre==nombreusuario and contraseña==contraseñausuario:
-                print("***Acceso Concedido***")
-                print("""Hola por favor seleccione una opcion
-                      1.Registrar Material
-                      2.Verificar Inventario""")
-                if opcion==1:
-                    materialnuevo=input("Nombre de la Madera ")
-                    materialnuevo.lower().strip()
-                    cantidadnuevo=input("Ingrese cantidad en M2 ")
-                    cantidadnuevo.lower().strip()
-                elif
-                    opcion==2
-                    print(materialnuevo)
-                    print(cantidadnuevo)
-
-                else:
+                print("***Acceso Concedido***")                            
+            else:
                 print("usuario o contraseña invalida por favor intente de nuevo: ")
         elif opcion==2:
             nombre=input("registre su nombre de usuario: ")
@@ -35,7 +22,8 @@ while True:
             contraseña=input("Registre su contraseña: ")
             contraseña.lower()
             print("**** Registrado Exitosamente ****")
-            break
+                    
         else:
+            print("saliendo")
             break
-
+    break
