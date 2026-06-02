@@ -35,10 +35,12 @@ while True:
                         cantbodega=cantidadnuevo
                         print("Material Registrado")
                     elif indice==2:
-                        print ( " madera en bodega.") ,matbodega
-                        print ( " la cantidad de metros cuadrados.") ,cantbodega
+                        print (" ingresado a bodega madera "+matbodega.replace("roble","mara"))
+                        print ( cantbodega+" metros cuadrados a bodega.")
                     elif indice==3:
                         break
+                    else:
+                         break
             else: 
                 
                 print("usuario o contraseña invalida por favor intente de nuevo: ")
